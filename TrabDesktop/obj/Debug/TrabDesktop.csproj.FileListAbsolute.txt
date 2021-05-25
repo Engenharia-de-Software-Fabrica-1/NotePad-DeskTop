@@ -38,3 +38,8 @@ C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabD
 C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.CopyComplete
 C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.exe
 C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\Newtonsoft.Json.xml

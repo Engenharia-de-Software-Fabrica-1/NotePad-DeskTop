@@ -186,10 +186,10 @@
           <Property Name="usu_codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="usu_nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="usu_cpf" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
-          <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="telefone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="usu_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="usu_telefone" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="tarefa" Relationship="Self.FK_tarefa_usuario" FromRole="usuario" ToRole="tarefa" />
-          <Property Name="senha" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="usu_senha" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="FK_prioridades_tarefa">
           <End Role="tarefa" Type="Self.tarefa" Multiplicity="0..1" />
@@ -348,12 +348,12 @@
           <EntitySetMapping Name="usuario">
             <EntityTypeMapping TypeName="notepadengModel.usuario">
               <MappingFragment StoreEntitySet="usuario">
-                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="usu_senha" ColumnName="senha" />
                 <ScalarProperty Name="usu_codigo" ColumnName="usu_codigo" />
                 <ScalarProperty Name="usu_nome" ColumnName="usu_nome" />
                 <ScalarProperty Name="usu_cpf" ColumnName="usu_cpf" />
-                <ScalarProperty Name="email" ColumnName="email" />
-                <ScalarProperty Name="telefone" ColumnName="telefone" />
+                <ScalarProperty Name="usu_email" ColumnName="email" />
+                <ScalarProperty Name="usu_telefone" ColumnName="telefone" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

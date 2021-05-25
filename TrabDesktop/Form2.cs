@@ -24,9 +24,9 @@ namespace TrabDesktop
         {
             model.usu_nome = txtnome.Text;
             model.usu_cpf = txtcpf.Text;
-            model.email = txtemail.Text;
-            model.telefone = txttelefone.Text;
-            model.senha = txtsenha.Text;
+            model.usu_email = txtemail.Text;
+            model.usu_telefone = txttelefone.Text;
+            model.usu_senha = txtsenha.Text;
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -36,7 +36,7 @@ namespace TrabDesktop
                 if (txtnome.Text != "" && txtcpf.Text != "" && txttelefone.Text != "" && txtemail.Text != "" && txtsenha.Text != "")
                 {
                     carregaProp();
-                    (new UsuarioRepositorio()).inserir(model);
+                    (new UsuarioRepositorio()).AddUsuario(model);
                     System.Threading.Thread t = new System.Threading.Thread(new System.Threading.ThreadStart(ThreadProc));
                     t.SetApartmentState(ApartmentState.STA);
                     t.IsBackground = true;

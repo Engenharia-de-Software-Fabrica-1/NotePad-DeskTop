@@ -35,12 +35,12 @@
     <EntitySetMapping Name="usuario">
       <EntityTypeMapping TypeName="notepadengModel.usuario">
         <MappingFragment StoreEntitySet="usuario">
-          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="usu_senha" ColumnName="senha" />
           <ScalarProperty Name="usu_codigo" ColumnName="usu_codigo" />
           <ScalarProperty Name="usu_nome" ColumnName="usu_nome" />
           <ScalarProperty Name="usu_cpf" ColumnName="usu_cpf" />
-          <ScalarProperty Name="email" ColumnName="email" />
-          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="usu_email" ColumnName="email" />
+          <ScalarProperty Name="usu_telefone" ColumnName="telefone" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
