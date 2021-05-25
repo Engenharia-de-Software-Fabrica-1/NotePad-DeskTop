@@ -1,0 +1,40 @@
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\TrabDesktop.exe.config
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\TrabDesktop.exe
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\TrabDesktop.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csprojAssemblyReference.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Form1.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Properties.Resources.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.GenerateResource.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.exe
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\Repositorio.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\Repositorio.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\Repositorio.dll.config
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.xml
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Form2.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.CopyComplete
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Form3.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\TrabDesktop.exe.config
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\TrabDesktop.exe
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\TrabDesktop.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\Repositorio.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\Repositorio.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\Repositorio.dll.config
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.xml
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csprojAssemblyReference.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Form1.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Form2.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Form3.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.Properties.Resources.resources
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.GenerateResource.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.csproj.CopyComplete
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.exe
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\TrabDesktop\obj\Debug\TrabDesktop.pdb

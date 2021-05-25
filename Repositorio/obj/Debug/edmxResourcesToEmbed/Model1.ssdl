@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="notepadengModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="prioridades">
+    <Key>
+      <PropertyRef Name="pri_codigo" />
+    </Key>
+    <Property Name="pri_codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pri_descricao" Type="varchar" MaxLength="50" />
+    <Property Name="tar_codigo" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tarefa">
+    <Key>
+      <PropertyRef Name="tar_codigo" />
+    </Key>
+    <Property Name="tar_codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tar_titulo" Type="varchar" MaxLength="50" />
+    <Property Name="tar_descricao" Type="varchar" MaxLength="50" />
+    <Property Name="tar_dataCriacao" Type="datetime" />
+    <Property Name="usu_codigo" Type="int" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="usu_codigo" />
+    </Key>
+    <Property Name="usu_codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="usu_nome" Type="varchar" MaxLength="50" />
+    <Property Name="usu_cpf" Type="varchar" MaxLength="15" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="senha" Type="varchar" MaxLength="30" />
+    <Property Name="telefone" Type="varchar" MaxLength="12" />
+  </EntityType>
+  <Association Name="FK_prioridades_tarefa">
+    <End Role="tarefa" Type="Self.tarefa" Multiplicity="0..1" />
+    <End Role="prioridades" Type="Self.prioridades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tarefa">
+        <PropertyRef Name="tar_codigo" />
+      </Principal>
+      <Dependent Role="prioridades">
+        <PropertyRef Name="tar_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tarefa_usuario">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="0..1" />
+    <End Role="tarefa" Type="Self.tarefa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="usu_codigo" />
+      </Principal>
+      <Dependent Role="tarefa">
+        <PropertyRef Name="usu_codigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AlteraUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="usu_codigo" Type="int" Mode="In" />
+    <Parameter Name="usu_nome" Type="varchar" Mode="In" />
+    <Parameter Name="usu_cpf" Type="varchar" Mode="In" />
+    <Parameter Name="email" Type="varchar" Mode="In" />
+    <Parameter Name="telefone" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_AlteraTarefa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tar_titulo" Type="varchar" Mode="In" />
+    <Parameter Name="tar_descricao" Type="varchar" Mode="In" />
+    <Parameter Name="tar_dataCriacao" Type="datetime" Mode="In" />
+    <Parameter Name="tar_codigo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_ExcluirTarefa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tar_codigo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_ExcluirUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="usu_codigo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsereTarefa" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tar_titulo" Type="varchar" Mode="In" />
+    <Parameter Name="tar_descricao" Type="varchar" Mode="In" />
+    <Parameter Name="tar_dataCriacao" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_InsereUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="usu_nome" Type="varchar" Mode="In" />
+    <Parameter Name="usu_cpf" Type="varchar" Mode="In" />
+    <Parameter Name="email" Type="varchar" Mode="In" />
+    <Parameter Name="telefone" Type="varchar" Mode="In" />
+    <Parameter Name="senha" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="notepadengModelStoreContainer">
+    <EntitySet Name="prioridades" EntityType="Self.prioridades" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tarefa" EntityType="Self.tarefa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_prioridades_tarefa" Association="Self.FK_prioridades_tarefa">
+      <End Role="tarefa" EntitySet="tarefa" />
+      <End Role="prioridades" EntitySet="prioridades" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tarefa_usuario" Association="Self.FK_tarefa_usuario">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="tarefa" EntitySet="tarefa" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="notepadengModelStoreContainer" CdmEntityContainer="notepadengEntities">
+    <EntitySetMapping Name="prioridades">
+      <EntityTypeMapping TypeName="notepadengModel.prioridades">
+        <MappingFragment StoreEntitySet="prioridades">
+          <ScalarProperty Name="pri_codigo" ColumnName="pri_codigo" />
+          <ScalarProperty Name="pri_descricao" ColumnName="pri_descricao" />
+          <ScalarProperty Name="tar_codigo" ColumnName="tar_codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="notepadengModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tarefa">
+      <EntityTypeMapping TypeName="notepadengModel.tarefa">
+        <MappingFragment StoreEntitySet="tarefa">
+          <ScalarProperty Name="tar_codigo" ColumnName="tar_codigo" />
+          <ScalarProperty Name="tar_titulo" ColumnName="tar_titulo" />
+          <ScalarProperty Name="tar_descricao" ColumnName="tar_descricao" />
+          <ScalarProperty Name="tar_dataCriacao" ColumnName="tar_dataCriacao" />
+          <ScalarProperty Name="usu_codigo" ColumnName="usu_codigo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="notepadengModel.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="usu_codigo" ColumnName="usu_codigo" />
+          <ScalarProperty Name="usu_nome" ColumnName="usu_nome" />
+          <ScalarProperty Name="usu_cpf" ColumnName="usu_cpf" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AlteraUsuario" FunctionName="notepadengModel.Store.AlteraUsuario" />
+    <FunctionImportMapping FunctionImportName="sp_AlteraTarefa" FunctionName="notepadengModel.Store.sp_AlteraTarefa" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="notepadengModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="notepadengModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="notepadengModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_ExcluirTarefa" FunctionName="notepadengModel.Store.sp_ExcluirTarefa" />
+    <FunctionImportMapping FunctionImportName="sp_ExcluirUsuario" FunctionName="notepadengModel.Store.sp_ExcluirUsuario" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="notepadengModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="notepadengModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="notepadengModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="notepadengModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsereTarefa" FunctionName="notepadengModel.Store.sp_InsereTarefa" />
+    <FunctionImportMapping FunctionImportName="sp_InsereUsuario" FunctionName="notepadengModel.Store.sp_InsereUsuario" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="notepadengModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="notepadengModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="InserirUsuario" FunctionName="notepadengModel.Store.sp_InsereUsuario" />
+  </EntityContainerMapping>
+</Mapping>

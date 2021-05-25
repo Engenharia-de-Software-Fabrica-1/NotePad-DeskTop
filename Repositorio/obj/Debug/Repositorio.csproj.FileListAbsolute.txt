@@ -1,0 +1,12 @@
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\Nova pasta (2)\TrabDesktop\Repositorio\obj\Debug\Repositorio.pdb
