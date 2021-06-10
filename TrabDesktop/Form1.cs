@@ -24,8 +24,6 @@ namespace TrabDesktop
             t.SetApartmentState(ApartmentState.STA);
             t.IsBackground = true;
             t.Start();
-
-            this.Visible = false;
         }
         public static void ThreadProc()
         {
@@ -35,6 +33,10 @@ namespace TrabDesktop
         {
             Application.Run(new Form3());
         }
+        public static void ThreadProc3()
+        {
+            Application.Run(new Form4());
+        }
         private void btnlogar_Click(object sender, EventArgs e)
         {
             System.Threading.Thread t = new System.Threading.Thread(new System.Threading.ThreadStart(ThreadProc2));
@@ -43,6 +45,14 @@ namespace TrabDesktop
             t.Start();
 
             this.Visible = false;
+        }
+
+        private void btnlistar_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread t = new System.Threading.Thread(new System.Threading.ThreadStart(ThreadProc3));
+            t.SetApartmentState(ApartmentState.STA);
+            t.IsBackground = true;
+            t.Start();
         }
     }
 }

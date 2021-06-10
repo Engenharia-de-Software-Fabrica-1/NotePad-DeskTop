@@ -40,6 +40,7 @@ namespace TrabDesktop
             this.label4 = new System.Windows.Forms.Label();
             this.txtsenha = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnlistar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -116,7 +117,7 @@ namespace TrabDesktop
             this.btnlogar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnlogar.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
             this.btnlogar.ForeColor = System.Drawing.Color.White;
-            this.btnlogar.Location = new System.Drawing.Point(444, 600);
+            this.btnlogar.Location = new System.Drawing.Point(298, 610);
             this.btnlogar.MaximumSize = new System.Drawing.Size(202, 31);
             this.btnlogar.Name = "btnlogar";
             this.btnlogar.Size = new System.Drawing.Size(202, 31);
@@ -188,12 +189,29 @@ namespace TrabDesktop
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // btnlistar
+            // 
+            this.btnlistar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnlistar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(115)))), ((int)(((byte)(115)))));
+            this.btnlistar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnlistar.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
+            this.btnlistar.ForeColor = System.Drawing.Color.White;
+            this.btnlistar.Location = new System.Drawing.Point(580, 610);
+            this.btnlistar.MaximumSize = new System.Drawing.Size(202, 31);
+            this.btnlistar.Name = "btnlistar";
+            this.btnlistar.Size = new System.Drawing.Size(202, 31);
+            this.btnlistar.TabIndex = 10;
+            this.btnlistar.Text = "Listar";
+            this.btnlistar.UseVisualStyleBackColor = false;
+            this.btnlistar.Click += new System.EventHandler(this.btnlistar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1105, 759);
+            this.Controls.Add(this.btnlistar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtsenha);
             this.Controls.Add(this.label3);
@@ -230,6 +248,7 @@ namespace TrabDesktop
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtsenha;
+        private System.Windows.Forms.Button btnlistar;
     }
 }
 

@@ -29,7 +29,6 @@ namespace Repositorio
             {
                 URI += "inserir.php";
                 usuario usu = new usuario();
-                //prod.Id = codProduto;
                 usu.usu_nome = u.usu_nome;
                 usu.usu_email = u.usu_email;
                 usu.usu_cpf = u.usu_cpf;
@@ -48,6 +47,9 @@ namespace Repositorio
 
                 throw;
             }
+        }
+        public void logar(string usuario, string senha)
+        { 
         }
     }
 }

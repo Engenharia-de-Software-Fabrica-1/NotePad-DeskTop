@@ -27,3 +27,20 @@ C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabD
 C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
 C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\Repositorio\obj\Debug\Repositorio.dll
 C:\Users\Ighor\OneDrive\Documentos\Toledo\7º Termo\Engenharia de software\TrabDesktop\TrabDesktop\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\Ighor\Documents\GitHub\ProjetoDesktop\Repositorio\obj\Debug\Repositorio.pdb
